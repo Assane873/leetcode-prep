@@ -5,6 +5,7 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
     print(sol.isAnagram(s = "racecar", t = "carrace"))
+    print(sol.isAnagram(s = "supersaiyan", t = "supersaiyajin"))
     
     
                  
