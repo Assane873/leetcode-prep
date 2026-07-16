@@ -12,7 +12,8 @@ class Solution:
             else:
                 groupes[cle] = [] # sinon on crée une liste vide qui sera la valeur de la nouvelle clé
                 groupes[cle].append(mot) # on y ajoute ensuite le mot
-        resultat = groupes.values() # on veut une list comme type de retour et ".values" renvoie toutes les valeurs d'un dictionnaire        return resultat
+        resultat = groupes.values() # on veut une list comme type de retour et ".values" renvoie toutes les valeurs d'un dictionnaire   
+        return resultat
         
 if __name__ == "__main__":
     sol = Solution()
